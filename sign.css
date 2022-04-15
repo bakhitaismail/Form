@@ -1,0 +1,64 @@
+*{
+
+}
+body{
+    background-image: linear-gradient(to left, #DA99B6, #F1CD80);  
+
+}
+.sign{
+    margin: 20px;
+    position: relative;
+    left: 420px;
+    font-size: xx-large;
+    height: 50px;
+    top: 20px;
+}
+input{
+    position: relative;
+    left: 200px;
+    height: 50px;
+    background-color: #f5f6f7;
+}
+.password{
+    position: relative;
+    left: 430px;
+    margin: 10px;
+    font-size: xx-large;
+
+}
+button{
+    width: 260px;
+    height: 50px;
+    font-size: large;
+    margin: 30px;
+    position: relative;
+    border-radius: 10px;
+    left: 410px;
+    top: 20px;
+    font-size: x-large;
+    background-color: #448BF0;
+    color: #f5f6f7;
+}
+.page2{
+    width: 1000px;
+    height: 500px;
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    background-color:#DA99B6 ;
+    border-radius: 20px;
+}
+.login{
+    position: relative;
+    width: 250px;
+    height: 240px;
+    left: -60px;
+    border-radius: 25px;
+
+}
+.active{
+    position: relative;
+    left: 380px;
+    width: 250px;
+    border-radius: 10px;
+}
