@@ -1,64 +1,115 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-}
 body{
-    background-image: linear-gradient(to left, #DA99B6, #F1CD80);  
+    background-image: linear-gradient(to left, #DA99B6, #F1CD80);   
+    
 
 }
 .sign{
     margin: 20px;
     position: relative;
-    left: 420px;
+    left: 880px;
     font-size: xx-large;
-    height: 50px;
-    top: 20px;
+    height: 40px;
+    top: 240px;
+    font-size: 40px;
+    position: fixed;
+   
 }
 input{
     position: relative;
-    left: 200px;
-    height: 50px;
+    left: 300px;
+    height: 40px;
     background-color: #f5f6f7;
 }
 .password{
     position: relative;
-    left: 430px;
-    margin: 10px;
-    font-size: xx-large;
+    left: 905px;
+    position: fixed;
+    top: 430px;
+    font-size: 40px;
 
 }
 button{
     width: 260px;
     height: 50px;
     font-size: large;
-    margin: 30px;
     position: relative;
     border-radius: 10px;
-    left: 410px;
-    top: 20px;
+    left: 890px;
+    top: 650px;
     font-size: x-large;
     background-color: #448BF0;
     color: #f5f6f7;
-}
-.page2{
-    width: 1000px;
-    height: 500px;
     position: fixed;
-    top: 200px;
-    left: 350px;
-    background-color:#DA99B6 ;
-    border-radius: 20px;
 }
-.login{
-    position: relative;
-    width: 250px;
-    height: 240px;
-    left: -60px;
-    border-radius: 25px;
 
-}
 .active{
     position: relative;
-    left: 380px;
+    left: 885px;
     width: 250px;
     border-radius: 10px;
+    top: 350px;
+    position: fixed;
+}
+.active1{
+    position: relative;
+    left: 870px;
+    width: 250px;
+    border-radius: 10px;
+    top: 500px;
+
+}
+.Box2{
+    margin: 120px;
+    width: 300px;
+    height: 600px;
+    background: #f3d184;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    top: 41px;
+    left: 300px;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    right: -8%;
+    font-weight: lighter;
+    color: #BE9A48;
+
+}
+p{
+    position: relative;
+    top: 15px;
+    left: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #bc994a;
+}
+h3{
+    font-size: 10px;
+    position: relative;
+    top: 430px;
+    left: 23px;
+    color: #bc994a;
+}
+img{
+    position: relative;
+    left: 25px;
+    top: 90px;
+}
+.Box1{
+    margin: 120px;
+    width: 600px;
+    height: 600px;
+    background:#ffffff;
+    position: fixed;
+    top: 41px;
+    left: 600px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
 }
